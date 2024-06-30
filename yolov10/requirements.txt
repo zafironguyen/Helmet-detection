@@ -13,3 +13,5 @@ psutil==5.9.8
 py-cpuinfo==9.0.0
 huggingface-hub==0.23.2
 safetensors==0.4.3
+opencv-python==4.10.0.84
+torchvision==0.18.1
