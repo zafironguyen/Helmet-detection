@@ -17,19 +17,6 @@ TRAINED_MODEL_PATH = os.path.join(
     script_dir, 'runs\\detect\\train\\weights\\best.pt')
 model = YOLOv10(TRAINED_MODEL_PATH)
 
-# IMAGE_URL = 'https://ips-dc.org/wp-content/uploads/2022/05/Black-Workers-Need-a-Bill-of-Rights.jpeg'
-
-# results = model.predict(source=IMAGE_URL,
-#                         imgsz=IMG_SIZE,
-#                         conf=CONF_THRESHOLD)
-# annotated_img = results[0].plot()
-# window_name = 'image'
-
-# cv2.imshow(window_name, annotated_img)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
-
-
 st.set_page_config(layout="wide")
 st.title("Helmet detecting App")
 
